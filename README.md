@@ -29,14 +29,11 @@ mixinや、keyframeなどの、SASSメソッドを記述(method)
 ・base/
 リセットCSSを格納
 
-・layput
+・layout/
 1.レイアウトに関するCSSを書く。拡張子は、l-から始める。（SMACSSでは、IDによる指定、あるいはl-などのプレフィックスをつけることが推奨されている）
 （例）l-header,l-section,l-footer
 
-2.共通パーツごとにSASSファイルを分けて書く。
-（例）_l-header.scss,l-footer.scss
-
-・module
+・module/
 モジュール（ボタン、アイコン、フォームなど）に関するSASSを記述する。
 モジュールの構造（ストラクチャー）に当たる部分を"BASE-MODULE"、見た目に当たる部分（スキン）を"SUB-MODULE"と呼ぶ。
 
@@ -75,7 +72,7 @@ stateに当たるclassには、is- というプレフィックスをつける
 (EX)is-fix,is-error,is-hidden
 
 ・Theme/
-あるテーマにそって、Webページ全体、または一部の見た目を変えるCSS。TOPの背景など？
+あるテーマにそって、Webページ全体、または一部の見た目を変えるCSS。TOPの背景など。
 
 
 ・master.scss
